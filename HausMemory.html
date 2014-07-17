@@ -1,0 +1,52 @@
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="./css/bootstrap.css">
+	<script type="text/javascript" src="./js/jquery-2.1.0.min.js"></script>	
+	<script type="text/javascript" src="./js/underscore-min.js"></script>	
+	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./js/HausMemory.js"></script>
+	<title>Haus Method Generator</title>
+</head>
+<body>
+	<div class="container">
+		<table class="table">
+			<thead>
+				<tr>
+					<td>
+						<span>總單元數</span>
+					</td>
+					<td>
+						<span>每日單元數</span>
+					</td>
+					<td>
+						<span>單位</span>
+					</td>
+				</tr>
+			</thead>			
+			<tbody>
+				<tr>
+					<td>
+						<input class="form-control" id="total-unit" value=20></input>
+					</td>
+					<td>
+						<input class="form-control" id="unit-per-day" value=2></input>
+					</td>
+					<td>
+						<select class="form-control" id="unit-name">
+							<option>頁</option>
+							<option>章</option>
+						</select>
+					</td>
+				</tr>
+			</tbody>
+		</table>	
+		<button class="btn btn-primary" id="generate-btn">產生課表</button>
+		<!-- Copy right -->
+		<div class="well well-sm copy-right">
+			©Power by Jordan, Hsu. &nbsp;&nbsp;&nbsp;&nbsp; 
+			<span class="glyphicon glyphicon-envelope"></span>
+			jordan00830@gmail.com			
+		</div>		
+	</div>
+</body>
+</html>

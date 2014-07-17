@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "searchCut",
+  "description": "Ebbinghaus Memory Method Generator",
+  "version": "1.0",
+   "icons": {
+    //"128": "imgs/icon128.png",
+    //"48": "imgs/icon48.png",
+    //"16": "imgs/icon.png"
+  },
+  "background": {
+      "scripts": ["background.js"]    
+  },
+  "browser_action": {
+     // "default_icon": "imgs/favicon.png",
+    "default_title": "Open Memory Schedule"
+    },
+  "permissions": ["tabs", "webNavigation","storage"],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
